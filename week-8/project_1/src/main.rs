@@ -73,6 +73,6 @@ fn get_aps_level(role: &str, years: i32,  aps_data: &Vec<(&str, &str, i32, i32)>
                 return aps.to_string();
             }
         }
-    }
+    } 
     String::new() // empty string -> not found
 }
