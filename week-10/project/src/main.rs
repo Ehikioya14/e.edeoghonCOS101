@@ -15,7 +15,7 @@ fn main() {
     //instantiate it
     let laptops = Price {
         hp:650_000,
-        ibm:750_000,
+        ibm:755_000,
         tosh:550_000,
         dell:850_000
     };
