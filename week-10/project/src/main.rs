@@ -3,7 +3,7 @@ struct Price {
     hp:u32, ibm:u32, tosh:u32, dell:u32
 }
 
-//logic to calculate total cot of laptops if a customer purchases 3 of each brand
+//logic to calculate total cost of laptops if a customer purchases 3 of each brand
 impl Price{
     fn sum(&self)->u32 {
         (self.hp * 3) + (self.ibm * 3) + (self.tosh * 3) + (self.dell * 3)
@@ -15,7 +15,7 @@ fn main() {
     //instantiate it
     let laptops = Price {
         hp:650_000,
-        ibm:750_000,
+        ibm:755_000,
         tosh:550_000,
         dell:850_000
     };

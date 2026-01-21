@@ -6,7 +6,7 @@ fn main() {
     println!("\nStudent Information Management System!");
 
     // input name
-    println!("\nPlease Enter your name.");
+   println!("\nPlease Enter your name.");
     let mut name = String::new();
         io::stdin()
         .read_line(&mut name)
@@ -19,4 +19,5 @@ fn main() {
         io::stdin().read_line(&mut age).expect("Failed to read input");
     let age:i32 = age.trim().parse().expect("Input not an integer");
     println!("Your age is: {}", age);       
+    
 }

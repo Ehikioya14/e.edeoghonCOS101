@@ -15,11 +15,11 @@ fn main() {
 
     println!("Choose an item P/F/A/E/W");
     io::stdin().read_line(&mut input1).expect("Not a valid String");
-    let mut item = input1.trim().to_lowercase();
+    let  item = input1.trim().to_lowercase();
 
     println!("How many do you want to order: ");
     io::stdin().read_line(&mut input2).expect("Coulc not read input");
-    let mut quantity:f32 = input2.trim().parse().expect("Not a Valid number");
+    let  quantity:f32 = input2.trim().parse().expect("Not a Valid number");
 
     // Step 2: Use decision making to declare the price and quantity
 
